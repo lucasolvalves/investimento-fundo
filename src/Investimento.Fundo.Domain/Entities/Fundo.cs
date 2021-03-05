@@ -33,7 +33,7 @@ namespace Investimento.Fundo.Domain.Entities
         public string Nome { get; private set; }
         public double TotalTaxas { get; private set; }
         public double Quantidade { get; private set; }
-        private double TaxaRentabilidade => 5;
+        private double TaxaRentabilidade => 15;
 
         private double CalcularIR()
         {

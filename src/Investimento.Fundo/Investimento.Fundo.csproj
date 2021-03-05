@@ -15,8 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Extensions\" />
-    <Folder Include="Configurations\" />
+    <ProjectReference Include="..\Investimento.Fundo.Domain\Investimento.Fundo.Domain.csproj" />
+    <ProjectReference Include="..\Investimento.Fundo.Infrastructure\Investimento.Fundo.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\V2\" />
   </ItemGroup>
 
 </Project>
