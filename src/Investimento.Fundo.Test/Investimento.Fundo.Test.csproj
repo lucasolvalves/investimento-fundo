@@ -18,9 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\" />
-    <Folder Include="Services\" />
-    <Folder Include="Builders\" />
+    <ProjectReference Include="..\Investimento.Fundo.Domain\Investimento.Fundo.Domain.csproj" />
+    <ProjectReference Include="..\Investimento.Fundo.Infrastructure\Investimento.Fundo.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
