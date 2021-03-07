@@ -27,7 +27,7 @@ Observe que para executar o projeto é necessario possuir a 5.0.
     curl -X GET "https://investimentofundo.azurewebsites.net/api/v1/fundos/123456" -H  "accept: application/json"
 
 ## DESENHO DA ARQUITETURA
-![](https://raw.githubusercontent.com/lucasolvalves/investimento-cliente-custodia/main/design_investimento_cliente_cust%C3%B3dia.png)
+![](https://raw.githubusercontent.com/lucasolvalves/investimento-cliente-custodia/main/design_investimento_cliente_custodia.png)
 
 ## SOBRE O AUTOR/ORGANIZADOR
 Lucas de Oliveira Alves<br>
