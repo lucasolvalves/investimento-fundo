@@ -41,6 +41,8 @@ namespace Investimento.Fundo.Configurations
             services.AddHealthChecksUI()
                 .AddInMemoryStorage();
 
+            services.AddApplicationInsightsTelemetry(configuration);
+
             return services;
         }
 
